@@ -1,3 +1,4 @@
-function comprar() {
-    alert("Produto adicionado ao carrinho!");
+function comprar(produto) {
+    alert(`${produto} adicionado ao carrinho!`);
+    window.location.href = 'https://contate.me/darkfitsuplements';
 }
