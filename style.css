@@ -15,7 +15,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px; /* Ajustei o padding para mais espaço no celular */
+    padding: 10px 20px;
     background-color: #000000;
     width: 100%;
     box-sizing: border-box; /* Garante que o header não ultrapasse a tela */
@@ -57,7 +57,8 @@ header {
     .produtos {
         grid-template-columns: 1fr;
     }
-    
+
+    /* Ajuste do header */
     header {
         padding: 10px; /* Menos padding em telas menores */
         justify-content: center; /* Garante que os itens fiquem centralizados */
@@ -65,6 +66,11 @@ header {
 
     .header-content {
         gap: 10px; /* Reduz a distância entre os itens */
+    }
+
+    /* Remover o whatsapp-banner em telas pequenas */
+    .whatsapp-banner {
+        display: none;
     }
 }
 
